@@ -4,6 +4,7 @@
 }
 body {
   font-family: "Roboto";
+  color: var(--font-color);
 }
 .logo {
   width: 145px;
@@ -32,14 +33,12 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--font-color);
   text-decoration: none;
 }
 .menu-nav-item:hover {
   color: var(--brand-color);
 }
 .contact {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -60,7 +59,7 @@ body {
   position: absolute;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -78,6 +77,8 @@ body {
   height: 50px;
   left: 700px;
   top: 430px;
+  line-height: 1.88;
+  cursor: pointer;
 }
 .collumn {
   columns: 4;
@@ -92,7 +93,6 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--font-color);
 }
 .list-item {
   font-weight: 400;
@@ -107,7 +107,6 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--font-color);
 }
 main {
   background-color: #f5f4fa;
@@ -121,7 +120,6 @@ main {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--font-color);
 }
 .name {
   font-weight: 500;
@@ -129,7 +127,6 @@ main {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--font-color);
 }
 .team-names {
   list-style: none;
@@ -164,16 +161,19 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.contact-footer:hover {
+    color: var(--brand-color);
+}
 .button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--font-color);
   height: 38px;
   top: 174px;
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 .button:hover {
   background-color: var(--brand-color);
@@ -190,7 +190,6 @@ footer {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: var(--font-color);
 }
 .portfolio-category {
   font-weight: 400;
